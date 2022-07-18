@@ -1,8 +1,8 @@
 <?php
 
-namespace VanOns\Laraberg;
+namespace Babyandy0111\Laraberg;
 
-use VanOns\Laraberg\Blocks\BlockTypeRegistry;
+use Babyandy0111\Laraberg\Blocks\BlockTypeRegistry;
 
 class Laraberg
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace VanOns\Laraberg\Traits;
+namespace Babyandy0111\Laraberg\Traits;
 
-use VanOns\Laraberg\Blocks\ContentRenderer;
+use Babyandy0111\Laraberg\Blocks\ContentRenderer;
 
 use function app;
 

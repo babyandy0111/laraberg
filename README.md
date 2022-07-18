@@ -1,6 +1,6 @@
 # <img height="300px" src="./logo-text.svg"> <!-- omit in toc -->
 [![Latest Version](https://img.shields.io/packagist/v/van-ons/laraberg)](https://packagist.org/packages/van-ons/laraberg)
-![License](https://img.shields.io/github/license/VanOns/laraberg.svg)
+![License](https://img.shields.io/github/license/Babyandy0111/laraberg.svg)
 
 Laraberg aims to provide an easy way to integrate the Gutenberg editor with your Laravel projects. It takes the Gutenberg editor and adds all the communication and data it needs function in a Laravel environment.
 
@@ -28,7 +28,7 @@ composer require van-ons/laraberg
 Add vendor files to your project (CSS, JS & Config):
 
 ```bash
-php artisan vendor:publish --provider="VanOns\Laraberg\LarabergServiceProvider"
+php artisan vendor:publish --provider="Babyandy0111\Laraberg\LarabergServiceProvider"
 ```
 
 ## JavaScript and CSS files
@@ -55,7 +55,7 @@ The Gutenberg editor expects React, ReactDOM, Moment and JQuery to be in the env
 
 When updating Laraberg you have to publish the vendor files again by running this command:
 ```bash
-php artisan vendor:publish --provider="VanOns\Laraberg\LarabergServiceProvider" --tag="public" --force
+php artisan vendor:publish --provider="Babyandy0111\Laraberg\LarabergServiceProvider" --tag="public" --force
 ```
 
 # Usage
@@ -113,7 +113,7 @@ interface EditorSettings {
 In order to add the editor content to a model Laraberg provides the 'RendersContent' trait.
 
 ```php
-use VanOns\Laraberg\Traits\RendersContent;
+use Babyandy0111\Laraberg\Traits\RendersContent;
 
 class MyModel extends Model {
   use RendersContent;
@@ -123,7 +123,7 @@ class MyModel extends Model {
 This adds the `render` method to your model which takes care of rendering the raw editor content. By default the `render` methods renders the content in the `content` column, the column can be changed by changing the `$contentColumn` property on your model to the column that you want to use instead.
 
 ```php
-use VanOns\Laraberg\Traits\RendersContent;
+use Babyandy0111\Laraberg\Traits\RendersContent;
 
 class MyModel extends Model {
   use RendersContent;

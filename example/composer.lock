@@ -5321,17 +5321,17 @@
             "type": "library",
             "extra": {
                 "laravel": {
-                    "providers": "VanOns\\Laraberg\\LarabergServiceProvider"
+                    "providers": "Babyandy0111\\Laraberg\\LarabergServiceProvider"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "VanOns\\Laraberg\\": "src"
+                    "Babyandy0111\\Laraberg\\": "src"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "VanOns\\Laraberg\\Test\\": "tests"
+                    "Babyandy0111\\Laraberg\\Test\\": "tests"
                 }
             },
             "license": [

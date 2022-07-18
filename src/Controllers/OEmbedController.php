@@ -1,10 +1,10 @@
 <?php
 
-namespace VanOns\Laraberg\Controllers;
+namespace Babyandy0111\Laraberg\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use VanOns\Laraberg\Services\OEmbedService;
+use Babyandy0111\Laraberg\Services\OEmbedService;
 
 class OEmbedController extends Controller
 {

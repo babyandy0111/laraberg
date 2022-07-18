@@ -1,12 +1,12 @@
 <?php
 
-namespace VanOns\Laraberg;
+namespace Babyandy0111\Laraberg;
 
 use Illuminate\Support\ServiceProvider;
-use VanOns\Laraberg\Blocks\BlockParser;
-use VanOns\Laraberg\Blocks\BlockTypeRegistry;
-use VanOns\Laraberg\Blocks\ContentRenderer;
-use VanOns\Laraberg\Services\OEmbedService;
+use Babyandy0111\Laraberg\Blocks\BlockParser;
+use Babyandy0111\Laraberg\Blocks\BlockTypeRegistry;
+use Babyandy0111\Laraberg\Blocks\ContentRenderer;
+use Babyandy0111\Laraberg\Services\OEmbedService;
 
 class LarabergServiceProvider extends ServiceProvider
 {

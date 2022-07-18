@@ -1,6 +1,6 @@
 <?php
 
-namespace VanOns\Laraberg\Blocks;
+namespace Babyandy0111\Laraberg\Blocks;
 
 class BlockParser
 {
